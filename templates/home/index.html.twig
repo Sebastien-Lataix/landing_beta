@@ -1,0 +1,553 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Boostmybet | Home{% endblock %}
+
+{% block body %}
+    <!-- Banner start -->
+    <section id="banner-part" class="menu-section main-banner">
+        <div class="banner">
+            <div class="banner-detail">
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-lg-6 p-0 fadeInLeft">
+                            <div class="banner-detail-inner">
+                                <h1 class="banner-title"><span>La plateforme qui simplifie l’accès aux</span><br> <span
+                                            style="color:#01E8FE"
+                                            class="element text-custom"
+                                            data-elements="DATAS SPORTIVES, INFORMATIONS DE MATCHS, OVER/UNDER, BTTS, XG"></span>
+                                </h1>
+                                <p>Des milliers de statistiques pour analyser les
+                                    matchs et de définir ses pronostics. </p>
+                                <a href="#" class="btn big-width btn-color">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="banner-main-img">
+                                <div class="front-bg fadeInRight">
+                                    <img src="{{ asset('/images/banner-img.svg') }}" alt="cryptoz">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- About section start -->
+    <section id="about-part" class="menu-section about-part position-r ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 fadeInRight order-lg-2 order-md-1">
+                    <div class="aboutus-detail pb-md-30">
+                        <div class="aboutus-detail-inner">
+                            <div class="heading-part mb-20 mb-sm-30 mb-xs-20">
+                                <h2 class="main_title">À propos de BoostmyBet Bêta</h2>
+                                <span>Une mine d'informations claires et accessibles</span>
+                            </div>
+                            <p>Retrouve toutes les infos et statistiques dont tu as besoin avant de valider ton pari
+                                avec à la clé un gain de temps crucial d’analyse. </p>
+                            <ul>
+                                <li>Des pages ligues, équipes et joueurs avec un ensemble d’infos actualisées en temps
+                                    réel
+                                </li>
+                                <li>Des classements filtrés par critères (domicile / extérieur et par mi-temps)</li>
+                                <li>Des statistiques dédiées au betting (répartition des BTTS, First to Score,
+                                    Over/Under)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1 order-md-2">
+                    <div class="about-img text-right text-md-center fadeInLeft">
+                        <img src="{{ asset('/images/about-img.svg') }}" alt="cryptoz">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Site Services Block Start -->
+    <section id="services-part" class="menu-section services-part position-r ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+                        <h2 class="main_title">Nos services</h2>
+                        <span>Nous simplifions la vie des parieurs.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ser-feature-block mb_-30 center-sm">
+                <div class="row">
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay1">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services1">
+                                    <img src="{{ asset('/images/ligues.svg') }}" alt="+180 ligues référencées">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">+180 ligues référencées</h3>
+                                    <div class="ser-subtitle">Retrouve l'ensemble des statistiques des ligues de 50
+                                        pays.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">De la Ligue des Champions aux 1ères divisions du
+                                        Luxembourg, du Cameroun ou encore de l'Uruguay, il y fort à parier que que tes
+                                        compétitions favorites soient sur BoostmyBet.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay2">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services2">
+                                    <img src="{{ asset('/images/livescore.svg') }}" alt="Livescore">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">Livescore</h3>
+                                    <div class="ser-subtitle">Suis le score des matchs en direct, que tu aies parié
+                                        dessus ou non !
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">L'accès aux scores en direct se trouve sur la partie en
+                                        haut à gauche du site.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay3">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services3">
+                                    <img src="{{ asset('/images/stats-betting.svg') }}" alt="statsbetting">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">Stats Betting</h3>
+                                    <div class="ser-subtitle">Nous regroupons un ensemble de datas destinées à aider les
+                                        joueurs.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">Retrouve des milliers d'infos statistiques par ligue, par
+                                        équipe ou par joueur, le tout avec la possiblité de filtrer via des critères
+                                        domicile/extérieur et par mi-temps (voir tableau ci-dessous).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay4">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services3">
+                                    <img src="{{ asset('/images/gratuit.svg')  }}" alt="Free Access">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">Version Bêta gratuite</h3>
+                                    <div class="ser-subtitle">L’ensemble du site est en accès libre.</div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">Pour le lancement de cette version Bêta, nous avons fait
+                                        le choix de mettre la partie statistiques du site en free access.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay5">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services1">
+                                    <img src="{{ asset('/images/news.svg') }}" alt="news">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">News</h3>
+                                    <div class="ser-subtitle">Ne rate aucune info cruciale à la prise de décision.</div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">Nous regroupons l'ensemble des alertes des sites les plus
+                                        importants afin de toujours te tenir informé des dernières actualités sportives.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 fadeInUpMedium delay6">
+                        <div class="services-box mb-30">
+                            <div class="frontend">
+                                <div class="services-icon services2">
+                                    <img src="{{ asset('/images/equipe.svg') }}" alt="Service Client">
+                                </div>
+                                <div class="services-detail">
+                                    <h3 class="ser-title">Une équipe de passionnés</h3>
+                                    <div class="ser-subtitle">Nous sommes à ton écoute pour améliorer la plateforme.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backend">
+                                <div class="services-detail">
+                                    <div class="ser-subtitle">Toute remarque, critique ou avis constructif est bon à
+                                        prendre, n'hésite donc pas à nous contacter par mail (contact@boostmybet.com) ou
+                                        via nos réseaux sociaux.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Site Services Block End -->
+
+
+    <!-- Roadmap section start -->
+    <section id="roadmap-part" class="menu-section roadmap-part position-r ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+                        <h2 class="main_title">Roadmap</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-roadmap">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="h-border fadeInLeftBig delay2"></div>
+                    </div>
+                </div>
+                <div class="row n-margin">
+                    <div class="w-100">
+                        <div id="roadmap-slider" class="roadmap-slider">
+                            <div class="item n-padding main-box">
+                                <div class="roadmap-box">
+                                    <div class="date-title delay_4">
+                                        Avril 2021
+                                    </div>
+                                    <div class="w-100 position-r map-graphic">
+                                        <div class="small-round zoomIn delay_2"></div>
+                                        <div class="v-row fadeInDownBig delay4"></div>
+                                    </div>
+                                    <div class="roadmap-detail-box invisible delay_4">
+                                        <h3 class="sub-title">Émergence du projet</h3>
+                                        <p>avec la volonté de proposer aux parieurs une plateforme à la fois complête et
+                                            facile à appréhender.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item n-padding main-box">
+                                <div class="roadmap-box">
+                                    <div class="date-title delay_4">
+                                        Mars 2022
+                                    </div>
+                                    <div class="w-100 position-r map-graphic">
+                                        <div class="small-round zoomIn delay_2"></div>
+                                        <div class="v-row fadeInDownBig delay4"></div>
+                                    </div>
+                                    <div class="roadmap-detail-box invisible delay_4">
+                                        <h3 class="sub-title">Version Bêta</h3>
+                                        <p>du site avec un accès à la partie statistiques de BoostmyBet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item n-padding main-box">
+                                <div class="roadmap-box">
+                                    <div class="date-title delay_4">
+                                        Été 2022
+                                    </div>
+                                    <div class="w-100 position-r map-graphic">
+                                        <div class="small-round zoomIn delay_2"></div>
+                                        <div class="v-row fadeInDownBig delay4"></div>
+                                    </div>
+                                    <div class="roadmap-detail-box invisible delay_4">
+                                        <h3 class="sub-title">Version complête</h3>
+                                        <p>de BoostmyBet avec de nouvelles fonctionnalités : comparateur de cotes,
+                                            gestion de bankroll, certification de bilan. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item n-padding main-box">
+                                <div class="roadmap-box">
+                                    <div class="date-title delay_4">
+                                        Janvier 2023
+                                    </div>
+                                    <div class="w-100 position-r map-graphic">
+                                        <div class="small-round zoomIn delay_2"></div>
+                                        <div class="v-row fadeInDownBig delay4"></div>
+                                    </div>
+                                    <div class="roadmap-detail-box invisible delay_4">
+                                        <h3 class="sub-title">Développement de l'offre</h3>
+                                        <p>avec l’arrivée de nouveaux sports en complément du football. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Roadmap section end -->
+
+    <!-- Our Team section start -->
+    <section id="team-part" class="menu-section team-part position-r ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+                        <h2 class="main_title">Le retour de nos premiers utilisateurs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="mb_-30">
+                <div class="row" style="justify-content: center;">
+                    <div class="col-sm-6 col-lg-3 fadeInUpMedium delay1">
+                        <div class="team-box mb-30">
+                            <div class="team-thumb">
+                                <img src="{{ asset('/images/betmentor.jpg') }}" alt="Cryptoz">
+                            </div>
+                            <div class="team-detail">
+                                <h3 class="member-name">BetMentor.fr</h3>
+                                <span class="member-designation">BoostmyBet permet de rapidement avoir accès à un ensemble d'infos sur chaque équipe. C'est une aide précieuse pour anticiper des fins de séries ou encore conforter une intuition. Mais la plateforme permet surtout un gain de temps considérable. Dans un seul et même tableau nous avons accès à des classements et statistiques qui demandent d'ouvrir X onglets sur d'autres sites.
+Hâte de voir la suite.</span>
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 fadeInUpMedium delay2">
+                        <div class="team-box mb-30">
+                            <div class="team-thumb">
+                                <img src="{{ asset('/images/betmentor.jpg') }}" alt="BetMentor.fr">
+                            </div>
+                            <div class="team-detail">
+                                <h3 class="member-name">BetMentor.fr</h3>
+                                <span class="member-designation">BoostmyBet permet de rapidement avoir accès à un ensemble d'infos sur chaque équipe. C'est une aide précieuse pour anticiper des fins de séries ou encore conforter une intuition. Mais la plateforme permet surtout un gain de temps considérable. Dans un seul et même tableau nous avons accès à des classements et statistiques qui demandent d'ouvrir X onglets sur d'autres sites.</span>
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 fadeInUpMedium delay3">
+                        <div class="team-box mb-30">
+                            <div class="team-thumb">
+                                <img src="{{ asset('/images/betmentor.jpg') }}" alt="Cryptoz">
+                            </div>
+                            <div class="team-detail">
+                                <h3 class="member-name">BetMentor.fr</h3>
+                                <span class="member-designation">BoostmyBet permet de rapidement avoir accès à un ensemble d'infos sur chaque équipe. C'est une aide précieuse pour anticiper des fins de séries ou encore conforter une intuition. Mais la plateforme permet surtout un gain de temps considérable. Dans un seul et même tableau nous avons accès à des classements et statistiques qui demandent d'ouvrir X onglets sur d'autres sites.</span>
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/BetMentor.fr" target="_blank"><i
+                                                        class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/BetMentor_fr" target="_blank"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://betmentor.fr/" target="_blank"><i
+                                                        class="fa fa-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Team section end -->
+
+    <!-- FAQ section start -->
+    <section id="faq-part" class="menu-section faq-part position-r ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+                        <h2 class="main_title">FAQ</h2>
+                        <span>Questions fréquemment posées</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div id="items">
+                        <div class="tab_content">
+                            <ul>
+                                <li>
+                                    <div class="items-General selected">
+                                        <div id="accordion" class="accordion">
+                                            <div class="accordion-box fadeInUpMedium delay1">
+                                                <h3>
+                                                    <a href="" data-toggle="collapse" data-target="#collapseOne"
+                                                       aria-expanded="true" aria-controls="collapseOne">
+                                                        Qu’est-ce que BoostmyBet Bêta ?
+                                                    </a>
+                                                </h3>
+                                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                                    <p>
+                                                        BoostmyBet Bêta est une plateforme de datas sportives
+                                                        permettant, entre autres, aux parieurs d’analyser efficacement
+                                                        les rencontres sportives. C’est la première pierre du projet,
+                                                        une version « light » du site avec pour le moment uniquement un
+                                                        accès à la partie statistiques, l’objectif étant de commencer à
+                                                        nous faire connaitre et à créer notre communauté d’utilisateurs
+                                                        afin d’avancer avec eux vers la mise en place de nos autres
+                                                        services.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-box fadeInUpMedium delay2">
+                                                <h3>
+                                                    <a href="" class="collapsed" data-toggle="collapse"
+                                                       data-target="#collapseTwo" aria-expanded="false"
+                                                       aria-controls="collapseTwo">
+                                                        Quand la version définitive sera-t-elle opérationnelle ?
+                                                    </a>
+                                                </h3>
+                                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                                    <p>
+                                                        Le lancement de la version complète de BoostmyBet est prévue
+                                                        pour l’été prochain. Les nouveaux services à retrouver seront
+                                                        alors un comparateur de cotes, un gestionnaire de bankroll ainsi
+                                                        qu’une certification de bilan.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-box fadeInUpMedium delay3">
+                                                <h3>
+                                                    <a href="" class="collapsed" data-toggle="collapse"
+                                                       data-target="#collapseThree" aria-expanded="false"
+                                                       aria-controls="collapseThree">
+                                                        BoostmyBet est-il payant ?
+                                                    </a>
+                                                </h3>
+                                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                                    <p>
+                                                        L’accès aux statistiques de la version Bêta de BoostmyBet est
+                                                        totalement gratuit. Pour la version définitive, une offre
+                                                        d’abonnement donnant accès à la totalité de nos services sera
+                                                        proposée à un tarif à partir de 7€ par mois.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-box fadeInUpMedium delay4">
+                                                <h3>
+                                                    <a href="" class="collapsed" data-toggle="collapse"
+                                                       data-target="#collapsefour" aria-expanded="false"
+                                                       aria-controls="collapsefour">
+                                                        Qui se cache derrière BoostmyBet ?
+                                                    </a>
+                                                </h3>
+                                                <div id="collapsefour" class="collapse" data-parent="#accordion">
+                                                    <p>
+                                                        Notre équipe est composée de parieurs expérimentés et de
+                                                        développeurs ayant à cœur de proposer une plateforme unique sur
+                                                        laquelle il serait possible d’analyser les matchs, de comparer
+                                                        les cotes des différents opérateurs, de partager ses pronostics
+                                                        et d’échanger avec d’autres joueurs.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section end -->
+
+    <!-- Section Blog start -->
+    <section id="blog-part" class="menu-section main-banner">
+        <div class="banner">
+            <div class="banner-detail">
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-lg-6 p-0 fadeInLeft">
+                            <div class="banner-detail-inner">
+                                <h1 class="banner-title"><span>La plateforme qui simplifie l’accès aux</span><br> <span
+                                            style="color:#01E8FE"
+                                            class="element text-custom"
+                                            data-elements="DATAS SPORTIVES, INFORMATIONS DE MATCHS, OVER/UNDER, BTTS, XG"></span>
+                                </h1>
+                                <p>Des milliers de statistiques pour analyser les
+                                    matchs et de définir ses pronostics. </p>
+                                <a href="#" class="btn big-width btn-color">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="banner-main-img">
+                                <div class="front-bg fadeInRight">
+                                    <img src="{{ asset('/images/banner-img.svg') }}" alt="cryptoz">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Blog end -->
+
+    <!-- Newsletter section start -->
+    <section id="newsletter-part" class="menu-section newsletter-part position-r pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+                        <h2 class="main_title">Newsletter</h2>
+                        <span>Blabla newsletter</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    {{ form_start(form) }}
+                    <div class="container-newsletter" style="display:flex;">
+                        <div class="input-newsletter" style="width: 100%;margin-right:1rem;margin-top:0.4rem">
+                            {{ form_widget(form.email, {'attr': {'class': 'form-control','placeholder': 'Adresse email'}}) }}
+                        </div>
+                        <button class="btn big-width btn-color form-control" style="width: 20%;padding-bottom: 2rem;">Je
+                            m'inscris
+                        </button>
+                    </div>
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter section end -->
+{%  endblock %}
+

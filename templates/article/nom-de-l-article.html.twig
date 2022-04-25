@@ -1,0 +1,140 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Boostmybet | {{ name }}{% endblock %}
+
+{% block body %}
+<div class="contant">
+    <div class="inner-banner-part" id="banner-part">
+        <div class="inner-banner-content">
+            <div class="container">
+                <h1 class="head-one">BLOG</h1>
+                <div class="custom-bread">
+                    <ul class="breadcrumb inline">
+                        <li><a href="{{ asset('/') }}">Home</a></li>
+                        <li><a href="{{ asset('/blog') }}">Blog</a></li>
+                        <li>Blog Detail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-part ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 col-xl-8">
+                    <div class="blog-detail-part pb-md-60">
+                        <img src="{{ asset('images/blog-img1.jpg') }}" alt="blog-detail-img" class="blog-img" >
+                        <div class="blog-detail">
+                            <div class="blog-detail-inner">
+                                <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
+                                <h2 class="head-two mb-20">Expenses as material breed material her insisted</h2>
+                                <p>Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since.</p>
+                                <p>Proin vitae blandit felis. Proin rhoncus imperdiet facilisis. Etiam et mauris ex. Maecenas posuere ipsum orci, at imperdiet est venenatis quis. Maecenas quis fermentum ipsum, ac eleifend urna. Cras sed viverra nibh. Mauris eget finibus erat. Mauris tempor varius purus nec cursus. Nullam ornare eget ipsum sit amet consequat. Nunc finibus vitae diam non suscipit. Praesent elementum felis sit amet urna tempus commodo. Proin congue id ante ac maximus. Interdum et malesuada fames ac ante ipsum primis in faucicursus est faucibus in.</p>
+                                <div class="tag-text">
+                                    Nunc blandit tincidunt consequat. Duis diam metus, suscipit ininar eget,arcu. Duis a enim vel mauris ultrices.
+                                </div>
+                                <p class="mt-4">Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since.Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since.</p>
+                                <div class="tag-social">
+                                    <div class="social-icon float-left">
+                                        <div class="small-title mb-0">Share:</div>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa fa-facebook" title="facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-twitter" title="twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-instagram" title="instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-youtube" title="youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-tags float-right">
+                                        <div class="small-title mb-0">Tags:</div>
+                                        <span><a href="#">Marketing</a></span>
+                                        <span><a href="#">Design</a></span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-xl-4">
+                    <div id="sidebar-main" class="sidebar sidebar-default sidebar-separate sidebar-fixed">
+                        <div class="sidebar-content">
+                            <div class="sidebar-default">
+                                <div class="category-content searching">
+                                    <input type="text" name="name" placeholder="Search...">
+                                    <a href="#">
+                                        <i class="fa fa-search" title="search"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sidebar-category sidebar-default">
+                                <div class="category-content">
+                                    <h2 class="cat-title">Categories</h2>
+                                    <ul class="pl-0 mb-0">
+                                        <li><a href="#">- Lifestyle</a></li>
+                                        <li><a href="#">- Travel</a></li>
+                                        <li><a href="#">- Fashion</a></li>
+                                        <li><a href="#">- Music</a></li>
+                                        <li><a href="#">- Branding</a></li>
+                                        <li><a href="#">- History</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-default">
+                                <div class="category-content">
+                                    <h2 class="cat-title">Tags</h2>
+                                    <div class="tags-grp row mlr_-5">
+                                        <ul>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                            <li><a href="#">Powels</a></li>
+                                            <li><a href="#">Horrible Distance</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                            <li><a href="#">Powels</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-default">
+                                <div class="category-content">
+                                    <h2 class="cat-title">Popular Posts</h2>
+                                    <div class="recent-post">
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
+                                                <a href="#" class="post-title">Proin rhoncus imperdiet facilisis. Etiam et mauris ex.</a>
+                                            </div>
+                                        </div>
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">John Doe <span>|</span> 10 Oct 2019</span>
+                                                <a href="#" class="post-title">Mauris tempor varius ac eleifend urna purus nec cursus.</a>
+                                            </div>
+                                        </div>
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">John Doe <span>|</span> 28 Sep 2019</span>
+                                                <a href="#" class="post-title">Praesent elementum felis sit amet urna tempus commodo.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%  endblock %}

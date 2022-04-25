@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="{{ asset('images/fav-icon.png') }}" type="image/x-icon">
+
+        {% block stylesheets %}
+            <link rel="stylesheet" type="text/css" href="{{ asset('/css/cryptoz.css') }}" >
+            <link rel="stylesheet" type="text/css" href="{{ asset('/css/responsive.css') }}">
+        {% endblock %}
+
+
+    </head>
+    <body>
+    <!-- Start preloader -->
+    <div id="preloader">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    <!-- End preloader -->
+    <!-- Main start -->
+    <div class="main">
+        <!-- Header start -->
+        <header id="header">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-lg-3 col-md-4 col-8 p-0">
+                        <div class="navbar-header">
+                            <a class="navbar-brand page-scroll" href="https://data.boostmybet.com/Leagues/301/Ligue%201"
+                               target=_blank">
+                                <img alt="BoostmyBet" src="{{ asset('images/logo-boostmybet.png') }}">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-4 p-0">
+                        <button data-target=".navbar-collapse" data-toggle="collapse"
+                                class="navbar-toggle d-block d-lg-none d-xl-none" type="button"><i class="fa fa-bars"></i>
+                        </button>
+                        <div class="overlay"></div>
+                        <div id="menu" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="level">
+                                    <a href="{{ asset('/#banner-part') }}" class="page-scroll nav-link" data-scroll>Home</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#about-part') }}" class="page-scroll nav-link" data-scroll>À propos de</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#blog-part') }}" class="page-scroll nav-link" data-scroll>Blog</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#services-part') }}" class="page-scroll nav-link" data-scroll>Services</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#roadmap-part') }}" class="page-scroll nav-link" data-scroll>Roadmap</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#team-part') }}" class="page-scroll nav-link" data-scroll>Bêta Testeurs</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#faq-part') }}" class="page-scroll nav-link" data-scroll>Faq</a>
+                                </li>
+                                <li class="level">
+                                    <a href="{{ asset('/#contact-part') }}" class="page-scroll nav-link" data-scroll>Newsletter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+        {% block body %}{% endblock %}
+    </div>
+    <!-- Main end -->
+    <!-- Footer section start -->
+        <footer>
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="mb-0">© Design & Develop by BoostmyBet, All right reserved</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social-media">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/BoostmyBet-108132671625400" target="_blank"><i
+                                                    class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/boostmybet_com"><i class="fa fa-twitter"
+                                                                                        target="_blank"></i></a></li>
+                                    <li><a href="https://www.instagram.com/boostmybet_com/" target="_blank"><i
+                                                    class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer section end -->
+    {% block javascripts %}
+        <script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/viewportchecker.js') }}"></script>
+        <script src="{{ asset('js/snap.svg-min.js') }}"></script>
+        <script src="{{ asset('js/jquery.listtopie.min.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
+    {% endblock %}
+    </body>
+</html>

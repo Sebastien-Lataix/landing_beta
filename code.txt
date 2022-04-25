@@ -1,0 +1,66 @@
+####################### boostmybet.com #####################
+username: boostmybet
+password: zU2X1pTbofHD
+github: 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
+
+
+boostmybetanalytics@gmail.com
+Mdp : BMB2022seo&/+
+####################### SSH ################################
+ssh boostmybet@hybrid2554.fr.ns.planethoster.net -p 2908
+zU2X1pTbofHD
+ssh boostmybetuk@hybrid2554.fr.ns.planethoster.net -p 2908
+zU2X1pTbofHD
+ssh boostmybetca@hybrid2554.fr.ns.planethoster.net -p 2908
+Q)fe5ykMPQGF
+ssh root@hybrid2554.fr.ns.planethoster.net -p 2908
+YU2rHmTx6WZXkRfgKjsb7Du9xxD8Z
+###################### DATA BASE ###########################
+boostmybet_prod
+boostmybet_prod_user
+4dzWZEvw9HAU
+
+boostmybetuk_db
+boostmybetuk_user
+4dzWZEvw9HAU
+###################### SPORTMONKS ##########################
+api_key=B61mcuYC4dz4finh2EXKOamjSQ9A0h1hcRVEB68agjcjxIdlnvp9vKueaCys
+
+
+###################### pinnacle ############################
+api@boostmybet.com
+1?bb}ZlyWkOM
+asianconnect : 27xxTTzcxf!*o
+###################### GITHUB ##############################
+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
+####################### emails ##############################
+support@boostmybet.com
+N=6R8n8-IT^p
+contact@boostmybet.com
+w@O6;5sAkkoI
+arnaud.journet@boostmybet.com
+?i-Ms3@,sAaa
+sebastien.lataix@boostmybet.com
+ipPP7Tso$8eC
+cron_job@boostmybet.com
+rwMkm3-=c.z&
+####################### FTP ################################
+ftp_boostmybet@boostmybet.com
+FTP Username: ftp_boostmybet@boostmybet.com
+FTP server: ftp.boostmybet.com
+password: zU2X1pTbofHD
+FTP & explicit FTPS port:  21
+
+boostmybet@boostmybet.uk
+4dzWZEvw9HAU
+Nom d’utilisateur FTP: boostmybetuk
+Serveur FTP: ftp.boostmybet.uk
+Port FTP & et FTPS explicite:  21
+
+ftp_boostmybet@boostmybet.ca
+FTP Username: ftp_boostmybet@boostmybet.ca
+FTP server: ftp.boostmybet.ca
+password: 4dzWZEvw9HAU
+FTP & explicit FTPS port:  21
+
+
