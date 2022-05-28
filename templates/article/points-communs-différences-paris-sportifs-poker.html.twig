@@ -1,0 +1,141 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Boostmybet | {{ name }}{% endblock %}
+
+{% block body %}
+<div class="contant">
+    <div class="inner-banner-part" id="banner-part">
+        <div class="inner-banner-content">
+            <div class="container">
+                <h1 class="head-one">ARTICLES PARIS SPORTIFS</h1>
+                <div class="custom-bread">
+                    <ul class="breadcrumb inline">
+                        <li><a href="{{ asset('/') }}">Home</a></li>
+                        <li><a href="{{ asset('/blog') }}">Blog</a></li>
+                        <li>Blog Detail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-part ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 col-xl-8">
+                    <div class="blog-detail-part pb-md-60">
+                        <img src="{{ asset('images/blog-img1.jpg') }}" alt="blog-detail-img" class="blog-img" >
+                        <div class="blog-detail">
+                            <div class="blog-detail-inner">
+                                <span class="bloger-date">BoostmyBet <span>|</span> 11 Mai 2022</span>
+                                <h2 class="head-two mb-20">Paris sportifs et poker, points communs et différences</h2>
+                                <p>Jeux d’argents à l’approche semblable, les paris sportifs et le poker sont deux pratiques se rapprochant sur certain points et ayant leur spécificités sur d’autres. Nous vous avons compilé quatre points communs et quatre différences entre ces deux univers. </p>
+                                <p><strong>LES POINTS COMMUNS ENTRE LES PARIS SPORTIF ET LE POKER : </strong></p>
+                                <p><strong>Les qualités mentales nécessaires pour espérer avoir des résultats</strong></p>
+                                <p>Pas de grosse surprise avec ce premier point, que vous soyez joueur de poker ou parieur, vous devez être doté de nombreuses qualités sur le plan mental. Gestion de ses émotions, du stress, une capacité de prises de décisions à toute épreuve ou encore un rapport sain à l’argent font parti des attributs indispensables pour réussir.</p>
+                                <p><strong>La charge de travail indispensable pour réussir</strong></p>
+                                <p>Le visionnage des matchs, le suivi de l’actualité, la comparaison des cotes d’un côté. La théorie, l’analyse des mains, le temps passé à grind de l’autre : les deux activités demandent une forte d’implication pour espérer battre les joueurs.  </p>
+                                <p><strong>L’importance de ne pas être “result oriented”</strong></p>
+                                <p>Notion très développé dans le poker mais très peu dans les paris sportifs, le fait d’être “result oriented” consiste au fait de ne regarder que le résultat final, sans prendre en compte tout le travail et les choix faits. Dans les paris sportifs, penser que vous avez bien joué parce que vous avez remporté votre pari alors que l’équipe sur laquelle vous avez misé à prit l’eau tout le match et s’en est sorti grâce à un exploit personnel serait “result oriented”. A l’inverse, pensez que vous avez mal parié uniquement parce que vous avez perdu le serait également. Au poker, être content de soit après avoir remporté un coup chanceux avec une main nettement moins bonne que celle de votre adversaire serait “result oriented”.
+                                    Que ce soit au poker ou dans les paris sportifs, ne voir que par les résultats ne sera jamais une bonne chose à la longue. </p>
+                                <p><strong>Le jargon</strong></p>
+                                <p>Un autre points commun entre un joueur de poker et un parieur est le fait de rapidement perdre son interlocuteur s’il n’est pas familier avec la pratique. Pêle-mêle pour le poker : 3bet, backdoor, check/raise, EV0 et autre showdown value.
+                                    Les paris sportifs ne sont pas en reste avec de nombreux anglicismes et abréviations. : closing odds, MTLM, Over/ Under, BTTS...
+                                    Nous vous invitons à lire notre article “les termes techniques utilisés dans les paris sportif” pour une éventuelle remise à niveau ! </p>
+                                <p><strong>LES DIFFERENCES ENTRE LES PARIS SPORTIF ET LE POKER : </strong></p>
+                                <p><strong>La popularité</strong></p>
+                                <p>Bien aidé par des campagnes publicitaires ultra-présentes et efficaces, le nombre de parieurs dans l’hexagone a littéralement explosé et connait une croissance à 2 chiffres quasiment tous les ans. Le poker a lui connu récemment un regain d’intérêt, bien aidé par les différents confinements, mais son nombre de pratiquants reste bien inférieur et n’a cessé de baisser pendant plusieurs années. Les fishs (joueurs débutants facile à battre) des années 2010 des tables onlines ont pour la plupart disparus alors que le nombre de jeunes de 18 ans ouvrant leur premier compte joueur pour parier se comptent en milliers chaque semaines. </p>
+                                <p><strong>L'image</strong></p>
+                                <p>Cette deuxième différence est corrélée à la première. Bien que les deux pratiques aient été ouvertes à la concurrence et de ce fait démocratisées au près du grand public en 2010 avec la création de l’ARJEL, le poker et le betting n’ont pas vraiment la même image. Le poker possède une image d’avantage positive. Le cliché du joueur de poker jouant dans des arrières-salles clandestines cigare aux lèvres est dorénavant passée. Celle du parieur ne faisant aucune analyse, ne tenant aucun bilan et multipliant les combinés à X matchs à lui la vie dure, à raison. </p>
+                                <p><strong>La variance</strong></p>
+                                <p>Oui, la variance existe belle et bien à la fois dans les paris sportifs et dans le poker, mais sans commune mesure. La variance au poker est nettement plus violente et peut s’étendre sur une durée beaucoup plus importante. Sur plusieurs mois voir une année entière. Un joueur de poker peut très bien jouer coups après coups et enchaîner les bad beats. Un parieur pourra lui aussi perdre sur des situations défavorables. Un joueur majeur qui se blesse après 10 minutes de jeu, une erreur d’arbitrage, une frappe qui finie sur le poteau ou un gardien qui sort le match de sa vie sont autant d’éléments de variance qui peuvent arriver. Un très bon joueur pourra enchaîner des séries de 5,6,7 voir 10 paris d’affilée à cause de la variance. Au delà, et si ces séries se répètent, il faudra sans doute commencer à revoir sa stratégie et ne pas tout mettre sur le dos de cette vilaine variance. </p>
+                                <p><strong>Les gains à espérer</strong></p>
+                                <p>Si vous vous lancez dans les paris sportifs avec l’objectif de gagner des millions, passez rapidement votre chemin. Il en est de même pour la majorité des joueurs de poker mais la part de pratiquants ayant cumulé des gains importants sont nettement plus nombreux. Les performances au poker sont davantage médiatisés et reconnus. Le terme de joueur professionnel s’est d’ailleurs démocratisé concernant alors qu’il est inexistant dans le betting. Le circuit est composé plusieurs centaines de joueurs pros. Une légende du poker comme Davidi Kitai cumule par exemple 10 milions d’euros de gains en carrière. </p>
+                                <p><em>Vous voyez d’autres points communs ou différences que nous aurions oubliés ? N’hésitez pas à commenter ce billet de blog.</em></p>
+                                <div class="tag-social">
+                                    <div class="social-icon float-left">
+                                        <div class="small-title mb-0">Share:</div>
+                                        <ul>
+                                            <li>
+                                                <a href=https://www.facebook.com/BoostmyBet-108132671625400 target="_blank"><i class="fa fa-facebook" title="facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href=https://twitter.com/boostmybet_com target="_blank"><i class="fa fa-twitter" title="twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href=https://www.instagram.com/boostmybet_com/ target="_blank"><i class="fa fa-instagram" title="instagram"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail-tags float-right">
+                                        <div class="small-title mb-0">Tags:</div>
+                                        <span><a href="#">Paris Sportifs</a></span>
+                                        <span><a href="#">Betting</a></span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-xl-4">
+                    <div id="sidebar-main" class="sidebar sidebar-default sidebar-separate sidebar-fixed">
+                        <div class="sidebar-content">
+                            <div class="sidebar-default">
+                                <div class="category-content searching">
+                                    <input type="text" name="name" placeholder="Search...">
+                                    <a href="#">
+                                        <i class="fa fa-search" title="search"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sidebar-default">
+                                <div class="category-content">
+                                    <h2 class="cat-title">Tags</h2>
+                                    <div class="tags-grp row mlr_-5">
+                                        <ul>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                            <li><a href="#">Powels</a></li>
+                                            <li><a href="#">Horrible Distance</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                            <li><a href="#">Powels</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Walk Roof</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-default">
+                                <div class="category-content">
+                                    <h2 class="cat-title">Articles sur le thème des paris sportifs</h2>
+                                    <div class="recent-post">
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">BoostmyBet <span>|</span> 11 Mai 2022</span>
+                                                <a href="#" class="post-title">Les fondamentaux de la gestion de bankroll dans les paris sportif</a>
+                                            </div>
+                                        </div>
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">BoostmyBet <span>|</span> 21 Avril 2022</span>
+                                                <a href="#" class="post-title">Paris sportifs et poker, points communs et différences</a>
+                                            </div>
+                                        </div>
+                                        <div class="recent inline">
+                                            <div class="recent-detail">
+                                                <span class="bloger-date">BoostmyBet <span>|</span> 2 Mai 2022</span>
+                                                <a href="#" class="post-title">Combien de temps faut-il pour devenir un bon parieur ?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%  endblock %}
