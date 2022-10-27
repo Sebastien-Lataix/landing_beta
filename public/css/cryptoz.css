@@ -323,6 +323,7 @@ h6 {
 	background: rgba(255,255,255,1);
 	border: none;
 }
+
 .btn-white:hover {
 	color: #fff;
 	background: #141518;
@@ -3268,4 +3269,9 @@ footer .social-media ul {
 }
 .bloger-date {
 	color: #01e8fe;
+}
+
+.blog-detail-part .blog-detail .blog-detail-inner p {
+	color: #fff;
+	line-height: 25px;
 }
