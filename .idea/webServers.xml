@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f61a9e56-180f-40e6-add8-b06a5d29560d" name="landing_bmb" url="http://ftp_boostmybet@boostmybet.uk">
-        <fileTransfer host="ftp_boostmybet@boostmybet.uk" port="21">
+      <webServer id="f61a9e56-180f-40e6-add8-b06a5d29560d" name="landing_bmb" url="http://hybrid2554.fr.ns.planethoster.net">
+        <fileTransfer host="hybrid2554.fr.ns.planethoster.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
