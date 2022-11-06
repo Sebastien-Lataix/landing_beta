@@ -130,11 +130,11 @@ $(function() {
 
     $(window).on('scroll', function(){
 		/*index : header animation*/
-		if ($(this).scrollTop() > 0) {
-            $("header").addClass("header-fixed");
-        } else {
-            $("header").removeClass("header-fixed");
-        }
+		// if ($(this).scrollTop() > 0) {
+        //     $("header").addClass("header-fixed");
+        // } else {
+        //     $("header").removeClass("header-fixed");
+        // }
 		/*end index : header animation*/
 //        tokan_graph();
     })
@@ -143,7 +143,7 @@ $(function() {
 	$( window ).on('resize', function(){
 		//location.reload();
 		$('.donut').listtopie('refresh');
-		$('html, body').animate({scrollTop: '0px'}, 100);
+		// $('html, body').animate({scrollTop: '0px'}, 100);
 
 	});
 

@@ -8,11 +8,11 @@ boostmybetanalytics@gmail.com
 Mdp : BMB2022seo&/+
 ####################### SSH ################################
 ssh boostmybet@hybrid2554.fr.ns.planethoster.net -p 2908
-zU2X1pTbofHD
+k?&B~*mXfkJB
 ssh boostmybetuk@hybrid2554.fr.ns.planethoster.net -p 2908
-zU2X1pTbofHD
+k?&B~*mXfkJB
 ssh boostmybetca@hybrid2554.fr.ns.planethoster.net -p 2908
-Q)fe5ykMPQGF
+k?&B~*mXfkJB
 ssh root@hybrid2554.fr.ns.planethoster.net -p 2908
 YU2rHmTx6WZXkRfgKjsb7Du9xxD8Z
 ###################### DATA BASE ###########################

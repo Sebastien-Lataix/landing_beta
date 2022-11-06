@@ -131,6 +131,13 @@
 }
 
 @media (max-width: 991px) {
+	.container-newsletter{
+		display: block!important;
+	}
+	.container-newsletter .input-newsletter {
+		margin-bottom: .5rem;
+		padding: 0 0.5rem!important;
+	}
 	.center-md {
 		text-align: center !important;
 	}

@@ -11,7 +11,7 @@
                 <div class="row m-0">
                     <div class="col-lg-6 p-0 fadeInLeft">
                         <div class="banner-detail-inner">
-                            <h1 class="banner-title"><span><b>BOOSTMYBET :</b><br> <FONT size="6pt">LA PLATEFORME DE STATISTIQUES SPORTIVES DES PARIEURS</FONT></span><br>
+                            <h1 class="banner-title"><span><b>BOOSTMYBET :</b><br> LA PLATEFORME DE STATISTIQUES SPORTIVES DES PARIEURS</span><br>
                                 <span
                                         style="color:#01E8FE"
                                         class="element text-custom"
@@ -221,12 +221,16 @@
 <!-- Site Services Block End -->
 
 <!-- Call to action start -->
-<div>
-    <center><img src="{{ asset('images/stats-betting-bmb.png') }}" alt="BoostmyBet Betting" style="width:71%"></center>
-    <br><br><br><br>
-    <center><a href="https://data.boostmybet.com/Leagues/301/Ligue%201" class="btn big-width btn-color">DÉCOUVRIR
-            BOOSTMYBET BÊTA</a></center>
+    <div class="container">
+<div class="row text-center">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <img src="{{ asset('images/stats-betting-bmb.png') }}" alt="BoostmyBet Betting" >
+    <br><br><br>
+   <a href="https://data.boostmybet.com/Leagues/301/Ligue%201" class="btn big-width btn-color">DÉCOUVRIR
+            BOOSTMYBET BÊTA</a>
+    </div>
 </div>
+    </div>
 <!-- Call to action end -->
 
 <!-- Roadmap section start -->
@@ -428,7 +432,7 @@
                                             <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                                 <p>
                                                     Le lancement de la version complète de BoostmyBet est prévue
-                                                    pour l’été prochain. Les nouveaux services à retrouver seront
+                                                    pour avril 2023. Les nouveaux services à retrouver seront
                                                     alors un comparateur de cotes, un gestionnaire de bankroll ainsi
                                                     qu’une certification de bilan.
                                                 </p>
@@ -528,13 +532,13 @@
                                 <div class="img-box blog-content mb-30">
                                     <a href="{{ asset('/article/points-communs-differences-paris-sportifs-poker') }}"
                                        target="blank" class="zoom">
-                                        <img src="{{ asset('images/article-boostmybet-poker.jpg') }}" alt="blog-img">
+                                        <img src="{{ asset('images/article-paris-sportifs-poker.jpg') }}" alt="blog-img">
                                     </a>
                                     <div class="blog-detail">
                                         <p class="bloger-date">Blog <span>|</span> 21 Avril 2022</p>
                                         <h3 class="head-three mb-20"><a
                                                     href="{{ asset('/article/points-communs-differences-paris-sportifs-poker') }}"
-                                                    target=blank">Paris sportifs et poker, points communs et
+                                                    target="_blank">Paris sportifs et poker, points communs et
                                                 différences</a></h3>
                                         <a href="{{ asset('/article/points-communs-differences-paris-sportifs-poker') }}"
                                            target="blank" class="readmore-btn">Lire l'article</a>
@@ -546,16 +550,16 @@
 
                                     <a href=href="{{ asset('/article/lexique-termes-paris-sportifs') }}" target=blank"
                                        class="zoom">
-                                        <img src="{{ asset('images/article-lexique-paris-sportif.jpg') }}" alt="blog-img">
+                                        <img src="{{ asset('images/article-lexique-paris-sportifs.jpg') }}" alt="blog-img">
                                     </a>
                                     <div class="blog-detail">
                                         <p class="bloger-date">Blog <span>|</span> 2 Mai 2022</p>
                                         <h3 class="head-three mb-20"><a
                                                     href="{{ asset('/article/lexique-termes-paris-sportifs') }}"
-                                                    target=blank">Le lexique des termes à connaître dans les paris
+                                                    target="_blank">Le lexique des termes à connaître dans les paris
                                                 sportifs. </a></h3>
                                         <a href="{{ asset('/article/lexique-termes-paris-sportifs') }}"
-                                           target=blank" class="readmore-btn">Lire l'article</a>
+                                           target="_blank" class="readmore-btn">Lire l'article</a>
                                     </div>
                                 </div>
                             </div>
@@ -584,12 +588,11 @@
             <div class="row justify-content-center">
                 <div class="col-10">
                     {{ form_start(form) }}
-                    <div class="container-newsletter" style="display:flex;">
-                        <div class="input-newsletter" style="width: 100%;margin-right:1rem;margin-top:0.4rem">
+                    <div class="container-newsletter d-flex justify-content-between text-center" >
+                        <div class="input-newsletter">
                             {{ form_widget(form.email, {'attr': {'class': 'form-control','placeholder': 'Adresse email'}}) }}
                         </div>
-                        <button class="btn big-width btn-color form-control" style="width: 20%;padding-bottom: 2rem;">Je
-                            m'inscris
+                        <button class="btn big-width btn-color form-control p-0" style="height: 40px;width : 40%">Je m'inscris
                         </button>
                     </div>
                     {{ form_end(form) }}

@@ -3,163 +3,227 @@
 {% block title %}Boostmybet | {{ name }}{% endblock %}
 
 {% block body %}
-<div class="contant">
-    <div class="inner-banner-part" id="banner-part">
-        <div class="inner-banner-content">
+    <div class="contant">
+        <div class="inner-banner-part" id="banner-part">
+            <div class="inner-banner-content">
+                <div class="container">
+                    <h1 class="head-one">BLOG</h1>
+                    <div class="custom-bread">
+                        <ul class="breadcrumb inline">
+                            <li><a href="{{ asset('/') }}">Home</a></li>
+                            <li><a href="{{ asset('/blog') }}">Blog</a></li>
+                            <li>Blog Detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-part ptb-100">
             <div class="container">
-                <h1 class="head-one">BLOG</h1>
-                <div class="custom-bread">
-                    <ul class="breadcrumb inline">
-                        <li><a href="{{ asset('/') }}">Home</a></li>
-                        <li><a href="{{ asset('/blog') }}">Blog</a></li>
-                        <li>Blog Detail</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="blog-part ptb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 col-xl-8">
-                    <div class="blog-detail-part pb-md-60">
-                        <img src="{{ asset('images/blog-img1.jpg') }}" alt="blog-detail-img" class="blog-img" >
-                        <div class="blog-detail">
-                            <div class="blog-detail-inner">
-                                <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
-                                <h2 class="head-two mb-20">Les fondamentaux de la gestion de bankroll dans les paris sportif</h2>
-                                <p>Concept de base pour tous parieurs souhaitant s’investir un minimum et ajouter du sérieux à sa pratique, la notion de gestion de bankroll, aussi appelé money management, est malheureusement négligée par une trop grande majorité de joueurs (perdants). Retour sur quelques règles pouvant à première vu paraitre arbitraires mais au combien capital pour espérer survivre dans un monde des paris sportifs ou la moindre erreur se paie cash.</p>
-                                <p>Qu’est-ce qu’une bankroll ?</p>
-                                <p>Avant d’évoquer les différentes stratégies de mises, revenons-en aux bases. La bankroll définie le capital que vous allez consacrer au jeu, et uniquement pour cela. C’est le point de départ et le B.A-BA dans les paris sportifs. Ce montant mis de côté spécifiquement pour cette activité va être la clé de voute de tout ce que vous allez entreprendre pour gagner de l’argent. L’une des premières règles est que cette somme investie doit toujours correspondre à de l’argent dont vous n’avez pas besoin pour des dépenses courantes.</p>
-                                <p>Avec quel capital de départ commencer ? </p>
-                                <p>Il n’y pas de bons ou de mauvais montant de bankroll pour commencer. Rome ne s’est pas faite en un jour et faire monter sa bankroll est un processus qui s’étend sur plusieurs années.Vous devez simplement garder en tête qu’il est fondamental que vous soyez à l’aise mentalement avec le montant de vos futures mises. Vous allez à coup sur faire des erreurs en début de parcours, des erreurs qui vous coûterons des % de bankroll. Pas la peine donc de vouloir aller trop vite et de partir avec un bankroll à 4 chiffres dès le départ. A crontrario, il serait utopiste d’espérer avoir des résultats probands avec une bankroll de quelques dizaines d’euros. Un moyen pratique et économique pour faire gonfler sa bankroll et démarrer sans trop investir est de profiter des différents bonus proposés par les opérateurs.</p>
-                                <p>Quelle stratégie de mise et quelle somme parier ?</p>
-                                <p>Maintenant que votre capital de départ est définie et déposé auprès d’un ou plusieurs opérateurs, se pose la question du montant de vos prochains paris. Pour cela, il existe deux grandes stratégies (nous vous en avons ajouté une dernière, mixant les deux).
-                                    L’une des premières chose à assimiler est que vous devez toujours être en phase avec votre mise. Une mise trop faible par rapport à vos objectifs pourra vous démotiver. Une mise trop importante vous créera un stress négatif et un possible tilt. En cas de gain de plusieurs paris avec une mise trop importante, le risque est une “emflamade”. A l’inverse, en cas de perte, le risque de “vouloir se refaire”,  terme malheureusement trop entendu et à l’origine de bien des ennuis pour trop de joueurs, peu exister. Bannissez toutes martingales, montantes et autres stratégies farfelues qui tueront votre bankroll en un rien de temps. </p>
-                                <p>1/ Les mises en fonction de fiabilités définies :</p>
-                                <p>****Stratégie la plus répandue, elle consiste au fait de définir des unités (communement appelées U) en fonction d’une confiance que vous donnez à votre paris. Le nombre d’unités correspondra alors au % de bankroll que vous allez jouer. Si vous estimez que le pari que vous avez determiné a de grandes chances de passer, le nombre d’unité que vous allez jouer sera important. A l’inverse, si votre pronostic vous semble risqué mais value, qu’il vaut la peine d’être joué, vous baisserez votre nombre d’unités. Les % de mise sont compris entre 1% et 10% (il est totalement déconseillé de jouer +10% de votre bankroll sur un pari). Plus le % de vos mises sera bas et plus il vous sera confortable et aisé de supporter la variance et les séries de pertes qui en découlent, le tout limitant drastiquement les possibilités de tilt.
+                <div class="row">
+                    <div class="col-12 col-lg-8 col-xl-8">
+                        <div class="blog-detail-part pb-md-60">
+                            <img src="{{ asset('images/blog-img1.jpg') }}" alt="blog-detail-img" class="blog-img">
+                            <div class="blog-detail">
+                                <div class="blog-detail-inner">
+                                    <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
+                                    <h2 class="head-two mt-20 mb-20">Les fondamentaux de la gestion de bankroll dans les
+                                        paris sportif</h2>
+                                    <p>Concept de base pour tous parieurs souhaitant s’investir un minimum et ajouter du
+                                        sérieux à sa pratique, la notion de gestion de bankroll, aussi appelé money
+                                        management, est malheureusement négligée par une trop grande majorité de joueurs
+                                        (perdants). Retour sur quelques règles pouvant à première vu paraitre
+                                        arbitraires mais au combien capital pour espérer survivre dans un monde des
+                                        paris sportifs ou la moindre erreur se paie cash.</p>
+                                    <p>Qu’est-ce qu’une bankroll ?</p>
+                                    <p>Avant d’évoquer les différentes stratégies de mises, revenons-en aux bases. La
+                                        bankroll définie le capital que vous allez consacrer au jeu, et uniquement pour
+                                        cela. C’est le point de départ et le B.A-BA dans les paris sportifs. Ce montant
+                                        mis de côté spécifiquement pour cette activité va être la clé de voute de tout
+                                        ce que vous allez entreprendre pour gagner de l’argent. L’une des premières
+                                        règles est que cette somme investie doit toujours correspondre à de l’argent
+                                        dont vous n’avez pas besoin pour des dépenses courantes.</p>
+                                    <p>Avec quel capital de départ commencer ? </p>
+                                    <p>Il n’y pas de bons ou de mauvais montant de bankroll pour commencer. Rome ne
+                                        s’est pas faite en un jour et faire monter sa bankroll est un processus qui
+                                        s’étend sur plusieurs années.Vous devez simplement garder en tête qu’il est
+                                        fondamental que vous soyez à l’aise mentalement avec le montant de vos futures
+                                        mises. Vous allez à coup sur faire des erreurs en début de parcours, des erreurs
+                                        qui vous coûterons des % de bankroll. Pas la peine donc de vouloir aller trop
+                                        vite et de partir avec un bankroll à 4 chiffres dès le départ. A crontrario, il
+                                        serait utopiste d’espérer avoir des résultats probands avec une bankroll de
+                                        quelques dizaines d’euros. Un moyen pratique et économique pour faire gonfler sa
+                                        bankroll et démarrer sans trop investir est de profiter des différents bonus
+                                        proposés par les opérateurs.</p>
+                                    <p>Quelle stratégie de mise et quelle somme parier ?</p>
+                                    <p>Maintenant que votre capital de départ est définie et déposé auprès d’un ou
+                                        plusieurs opérateurs, se pose la question du montant de vos prochains paris.
+                                        Pour cela, il existe deux grandes stratégies (nous vous en avons ajouté une
+                                        dernière, mixant les deux).
+                                        L’une des premières chose à assimiler est que vous devez toujours être en phase
+                                        avec votre mise. Une mise trop faible par rapport à vos objectifs pourra vous
+                                        démotiver. Une mise trop importante vous créera un stress négatif et un possible
+                                        tilt. En cas de gain de plusieurs paris avec une mise trop importante, le risque
+                                        est une “emflamade”. A l’inverse, en cas de perte, le risque de “vouloir se
+                                        refaire”, terme malheureusement trop entendu et à l’origine de bien des ennuis
+                                        pour trop de joueurs, peu exister. Bannissez toutes martingales, montantes et
+                                        autres stratégies farfelues qui tueront votre bankroll en un rien de temps. </p>
+                                    <p>1/ Les mises en fonction de fiabilités définies :</p>
+                                    <p>****Stratégie la plus répandue, elle consiste au fait de définir des unités
+                                        (communement appelées U) en fonction d’une confiance que vous donnez à votre
+                                        paris. Le nombre d’unités correspondra alors au % de bankroll que vous allez
+                                        jouer. Si vous estimez que le pari que vous avez determiné a de grandes chances
+                                        de passer, le nombre d’unité que vous allez jouer sera important. A l’inverse,
+                                        si votre pronostic vous semble risqué mais value, qu’il vaut la peine d’être
+                                        joué, vous baisserez votre nombre d’unités. Les % de mise sont compris entre 1%
+                                        et 10% (il est totalement déconseillé de jouer +10% de votre bankroll sur un
+                                        pari). Plus le % de vos mises sera bas et plus il vous sera confortable et aisé
+                                        de supporter la variance et les séries de pertes qui en découlent, le tout
+                                        limitant drastiquement les possibilités de tilt.
 
-                                    Exemples avec un parieur fictif qui ferait le choix d’avoir 5 paliers de mises différents :
+                                        Exemples avec un parieur fictif qui ferait le choix d’avoir 5 paliers de mises
+                                        différents :</p>
+                                    <div class="container-list">
+                                        1% —> Un pronostic dont la probabilté est faible mais qui vaut la peine d’être
+                                        joué (ex : cote @4,50)
 
-                                    1% —> Un pronostic dont la probabilté est faible mais qui vaut la peine d’être joué (ex : cote @4,50)
+                                        3% —> La majorité de vos pronostics (ex : cote @2,10)
 
-                                    3% —> La majorité de vos pronostics (ex : cote @2,10)
+                                        5% —> Un pronostic pour lequel vous avez une confiance élevé (ex : cote @1,90)
 
-                                    5% —> Un pronostic pour lequel vous avez une confiance élevé (ex : cote @1,90)
+                                        8% —> Un pronostic pour lequel vous avez une grande confiance (ex : cote @1,80)
 
-                                    8% —> Un pronostic pour lequel vous avez une grande confiance (ex : cote @1,80)
+                                        10% —> Un pronostic pour lequel vous avez une confiance énorme, tous les feux
+                                        sont au vert : info en votre possession que le bookmaker n’a pas, erreur de
+                                        cote... (extrêmement rare)
 
-                                    10% —> Un pronostic pour lequel vous avez une confiance énorme, tous les feux sont au vert  : info en votre possession que le bookmaker n’a pas, erreur de cote... (extrêmement rare)
+                                        Naturellement, ce shéma reste purement fictif et n’a pour simple objectif que de
+                                        shématiser et vous donner des indications de ce que peuvent être vos mises. La
+                                        seule prise en compte de la cote ne doit pas définir votre confiance. Il est
+                                        tout à fait possible d’avoir une grande confiance pour une cote à 2,20 ou au
+                                        contraire de ne décider de ne jouer que 3% de BK sur une cote à 1,75.
 
-                                    Naturellement, ce shéma reste purement fictif et n’a pour simple objectif que de shématiser et vous donner des indications de ce que peuvent être vos mises. La seule prise en compte de la cote ne doit pas définir votre confiance. Il est tout à fait possible d’avoir une grande confiance pour une cote à 2,20 ou au contraire de ne décider de ne jouer que 3% de BK sur une cote à 1,75.
-
-                                    Le risque pour un joueur débutant avec cette stratégie de money management est de ne pas parvenir à déceler convenablement une fiabilité ou, par exemple, de vouloir augmenter le % de mise après une série de perte. A l’inverse, diminuer légèrement ses % de mises en prévision d’une fin de série de gains peut s’avérer être une option stratégique à ne pas négliger.</p>
-
-                                <div class="tag-text">
-                                    Nunc blandit tincidunt consequat. Duis diam metus, suscipit ininar eget,arcu. Duis a enim vel mauris ultrices.
-                                </div>
-                                <p class="mt-4">Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since.Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has industry's standard dummy text ever since.</p>
-                                <div class="tag-social">
-                                    <div class="social-icon float-left">
-                                        <div class="small-title mb-0">Share:</div>
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook" title="facebook"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter" title="twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-instagram" title="instagram"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-youtube" title="youtube"></i></a>
-                                            </li>
-                                        </ul>
+                                        Le risque pour un joueur débutant avec cette stratégie de money management est
+                                        de ne pas parvenir à déceler convenablement une fiabilité ou, par exemple, de
+                                        vouloir augmenter le % de mise après une série de perte. A l’inverse, diminuer
+                                        légèrement ses % de mises en prévision d’une fin de série de gains peut s’avérer
+                                        être une option stratégique à ne pas négliger.
                                     </div>
-                                    <div class="detail-tags float-right">
-                                        <div class="small-title mb-0">Tags:</div>
-                                        <span><a href="#">Marketing</a></span>
-                                        <span><a href="#">Design</a></span>
+                                    <div class="tag-text">
+                                        Nunc blandit tincidunt consequat. Duis diam metus, suscipit ininar eget,arcu.
+                                        Duis a enim vel mauris ultrices.
                                     </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 col-xl-4">
-                    <div id="sidebar-main" class="sidebar sidebar-default sidebar-separate sidebar-fixed">
-                        <div class="sidebar-content">
-                            <div class="sidebar-default">
-                                <div class="category-content searching">
-                                    <input type="text" name="name" placeholder="Search...">
-                                    <a href="#">
-                                        <i class="fa fa-search" title="search"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="sidebar-category sidebar-default">
-                                <div class="category-content">
-                                    <h2 class="cat-title">Categories</h2>
-                                    <ul class="pl-0 mb-0">
-                                        <li><a href="#">- Lifestyle</a></li>
-                                        <li><a href="#">- Travel</a></li>
-                                        <li><a href="#">- Fashion</a></li>
-                                        <li><a href="#">- Music</a></li>
-                                        <li><a href="#">- Branding</a></li>
-                                        <li><a href="#">- History</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-default">
-                                <div class="category-content">
-                                    <h2 class="cat-title">Tags</h2>
-                                    <div class="tags-grp row mlr_-5">
-                                        <ul>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">Walk Roof</a></li>
-                                            <li><a href="#">Powels</a></li>
-                                            <li><a href="#">Horrible Distance</a></li>
-                                            <li><a href="#">Walk Roof</a></li>
-                                            <li><a href="#">Powels</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">Walk Roof</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sidebar-default">
-                                <div class="category-content">
-                                    <h2 class="cat-title">Popular Posts</h2>
-                                    <div class="recent-post">
-                                        <div class="recent inline">
-                                            <div class="recent-detail">
-                                                <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
-                                                <a href="#" class="post-title">Proin rhoncus imperdiet facilisis. Etiam et mauris ex.</a>
-                                            </div>
+                                    <p class="mt-4">Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum
+                                        has industry's standard dummy text ever since. Lorem Ipsums is simply dummy text
+                                        of the print industry. Lorem Ipsum has industry's standard dummy text ever
+                                        since.Lorem Ipsums is simply dummy text of the print industry. Lorem Ipsum has
+                                        industry's standard dummy text ever since. Lorem Ipsums is simply dummy text of
+                                        the print industry. Lorem Ipsum has industry's standard dummy text ever
+                                        since.</p>
+                                    <div class="tag-social">
+                                        <div class="social-icon float-left">
+                                            <div class="small-title mb-0">Share:</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-facebook" title="facebook"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-twitter" title="twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-instagram" title="instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-youtube" title="youtube"></i></a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div class="recent inline">
-                                            <div class="recent-detail">
-                                                <span class="bloger-date">John Doe <span>|</span> 10 Oct 2019</span>
-                                                <a href="#" class="post-title">Mauris tempor varius ac eleifend urna purus nec cursus.</a>
-                                            </div>
+                                        <div class="detail-tags float-right">
+                                            <div class="small-title mb-0">Tags:</div>
+                                            <span><a href="#">Marketing</a></span>
+                                            <span><a href="#">Design</a></span>
                                         </div>
-                                        <div class="recent inline">
-                                            <div class="recent-detail">
-                                                <span class="bloger-date">John Doe <span>|</span> 28 Sep 2019</span>
-                                                <a href="#" class="post-title">Praesent elementum felis sit amet urna tempus commodo.</a>
-                                            </div>
-                                        </div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    <div class="line"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-lg-4 col-xl-4">
+                        <div id="sidebar-main" class="sidebar sidebar-default sidebar-separate sidebar-fixed">
+                            <div class="sidebar-content">
+                                <div class="sidebar-default">
+                                    <div class="category-content searching">
+                                        <input type="text" name="name" placeholder="Search...">
+                                        <a href="#">
+                                            <i class="fa fa-search" title="search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="sidebar-category sidebar-default">
+                                    <div class="category-content">
+                                        <h2 class="cat-title">Categories</h2>
+                                        <ul class="pl-0 mb-0">
+                                            <li><a href="#">- Lifestyle</a></li>
+                                            <li><a href="#">- Travel</a></li>
+                                            <li><a href="#">- Fashion</a></li>
+                                            <li><a href="#">- Music</a></li>
+                                            <li><a href="#">- Branding</a></li>
+                                            <li><a href="#">- History</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-default">
+                                    <div class="category-content">
+                                        <h2 class="cat-title">Tags</h2>
+                                        <div class="tags-grp row mlr_-5">
+                                            <ul>
+                                                <li><a href="#">Events</a></li>
+                                                <li><a href="#">Walk Roof</a></li>
+                                                <li><a href="#">Powels</a></li>
+                                                <li><a href="#">Horrible Distance</a></li>
+                                                <li><a href="#">Walk Roof</a></li>
+                                                <li><a href="#">Powels</a></li>
+                                                <li><a href="#">Events</a></li>
+                                                <li><a href="#">Walk Roof</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-default">
+                                    <div class="category-content">
+                                        <h2 class="cat-title">Popular Posts</h2>
+                                        <div class="recent-post">
+                                            <div class="recent inline">
+                                                <div class="recent-detail">
+                                                    <span class="bloger-date">John Doe <span>|</span> 20 Oct 2019</span>
+                                                    <a href="#" class="post-title">Proin rhoncus imperdiet facilisis.
+                                                        Etiam et mauris ex.</a>
+                                                </div>
+                                            </div>
+                                            <div class="recent inline">
+                                                <div class="recent-detail">
+                                                    <span class="bloger-date">John Doe <span>|</span> 10 Oct 2019</span>
+                                                    <a href="#" class="post-title">Mauris tempor varius ac eleifend urna
+                                                        purus nec cursus.</a>
+                                                </div>
+                                            </div>
+                                            <div class="recent inline">
+                                                <div class="recent-detail">
+                                                    <span class="bloger-date">John Doe <span>|</span> 28 Sep 2019</span>
+                                                    <a href="#" class="post-title">Praesent elementum felis sit amet
+                                                        urna tempus commodo.</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-{%  endblock %}
+{% endblock %}
