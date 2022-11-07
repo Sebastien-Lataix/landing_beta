@@ -301,7 +301,7 @@
 	}
 
 	.navbar-nav > li {
-		border-bottom: 1px solid #5832bd;
+		border-bottom: 1px solid #01e8fe;
 	    display: inline-block;
 	    float: none;
 	    width: 100%;
@@ -316,7 +316,7 @@
 
 	.nav > li:hover > a, .nav > li.active > a, .nav > li > a:focus {
 	    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-	    color: #9c79ff;
+	    color: #01e8fe;
 	}
 
 	#header .nav > li:first-child a {
